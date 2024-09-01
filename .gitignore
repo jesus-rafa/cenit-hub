@@ -1,0 +1,24 @@
+# Ignorar archivos y directorios generados automáticamente por Django
+__pycache__
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# Ignorar archivos de migraciones de Django
+/migrations/
+
+# Ignorar archivos locales de configuración
+.env
+
+# Ignorar archivos estáticos generados por collectstatic
+/static/
+
+# Ignorar archivos de registros y archivos de cache
+/logs/
+__logs/
+/cache/
+
+# Ignorar archivos de entornos virtuales (por ejemplo, virtualenv)
+env_cenit_hub/
+
