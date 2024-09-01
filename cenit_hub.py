@@ -1,5 +1,5 @@
-from core.supabase_client import connect_db
-from core.firebase_manager import send_notification
+from supabase_client import connect_db
+from firebase_manager import send_notification
 from flask import Flask, request, jsonify
 
 supabase = connect_db()
